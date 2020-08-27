@@ -1,10 +1,162 @@
-.bg-img{
-    background: url("D:\Proiecte\Wooble-Task\img\ThinkstockPhotos-517236430-1.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;  
+  font-family: 'Alata', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.nav {
+    margin-top: 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.list{
+    display: flex;
+}
+div ul a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(172, 172, 201);
+    margin: 10px;
+}
+.background-image{
+ background: url('img/ThinkstockPhotos-517236430-1.png') no-repeat center center fixed;
+ height: 100vh;
+ -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
-    padding: 0;
-    margin: 0;
-} 
+}
+.info{
+    position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    padding-right: 35%;
+}
+.info h1{
+    margin: 10px;
+}
+.button button{
+    margin-top: 70px;
+    width: 335px;
+    height: 74px;
+    border-radius: 40px;
+    border: none;
+    background: linear-gradient(rgba(127,18,171),rgba(218,22,201));
+    font-weight: bold;
+    font-size: large;
+    color: rgb(254, 240, 255);
+}
+.women{
+    background: -webkit-linear-gradient(rgba(127,18,171),rgba(218,22,201));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.text2{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    text-align: start;
+    margin-left: 150px;
+
+}
+.text2 h1{
+    padding: 10px;
+    color: rgb(172, 172, 201);
+}
+.txt2 h1{
+    padding: 10px;
+
+}
+.imgGrid{
+    display: grid , inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10%;
+    background-color: rgb(254, 240, 255);
+}
+.profileImg{
+    padding: 20px;
+    height: 300px;
+    width: 20%;
+}
+.testim{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align:center;
+    position: relative;
+}
+.triangle{
+    width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 80px 113px 43px;
+border-color: transparent transparent #b815be transparent;
+position: absolute;
+left: 5%;
+}
+#first{
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi");
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi"); /* The least supported option. */
+}
+.txt2 p{
+    margin: 10px;
+    color: rgb(172, 172, 201);
+}
